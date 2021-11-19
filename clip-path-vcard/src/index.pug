@@ -1,0 +1,47 @@
+.cards
+    input.card-control#dribbble(name="card-control" type="radio" checked)
+    .card.card--dribbble
+        .col
+            h2 
+                strong Мой 
+                | DRIBBBLE.
+            p К моему сожалению, меня нет на dribbble. Стандартный аккаунт для сбора понравившихся идей в bucket имеется. Если кто-то возжелает пригласить меня стать участником этого замечательного сообщества, то я буду только рад. 
+            a.btn(href="https://dribbble.com/ZloDeeV" target="_blank") Блоб-боб
+        .col.col--right
+            img(src="https://pp.vk.me/c630131/v630131333/52b6/B8PPwd-_J58.jpg", alt="Мой дрибббл" width="300")
+    input.card-control#codepen(name="card-control" type="radio")
+    .card.card--codepen
+        .col
+            h2 
+                strong Мой 
+                | CODEPEN.
+            p А это хранилище моих реализаций каких-то "фентифлюх", собранных с просторов интернета. Стараюсь делать каждую пенку качественно и реюзабельно. 
+            a.btn(href="https://codepen.io/ZloDeeV" target="_blank") Ты уже здесь
+        .col.col--right
+            img(src="http://vignette3.wikia.nocookie.net/en.futurama/images/4/4e/Farnsworth.png/revision/latest?cb=20110710094500", alt="" width="250")
+    input.card-control#twitter(name="card-control" type="radio")
+    .card.card--twitter
+        .col
+            h2 
+                strong Мой 
+                | TWITTER.
+            p Нескончаемый поток мыслей разной степени безумности. Рефлексы вместо рефлексии. Чуть-чуть новокаина  и много мата. Добро пожаловать.
+            a.btn(href="https://twitter.com/zlodeev_ik" target="_blank") Тыц!
+        .col.col--right
+            img(src="https://psv4.vk.me/c610725/u59272333/docs/60bbe6aba26b/pR5hHCXvn5Q.png", alt="" width="300")
+    input.card-control#vk(name="card-control" type="radio")
+    .card.card--vk
+        .col
+            h2 
+                strong Мой 
+                | VK.
+            p Общаюсь в основном только там. В контакте меня проще всего выловить в любое время суток. Там же я иногда публикую свои достижения и то, что сделал на codepen
+            a.btn(href="https://vk.com/ikmango" target="_blank") Let's chat
+        .col.col--right
+            img(src="http://ih0.redbubble.net/image.40467473.8088/sticker,375x360.u2.png", alt="" width="250")
+    
+    nav.main-nav
+        label.main-nav__item.fa.fa-dribbble.active(for="dribbble")
+        label.main-nav__item.fa.fa-vk(for="vk")
+        label.main-nav__item.fa.fa-twitter(for="twitter")
+        label.main-nav__item.fa.fa-codepen(for="codepen")
